@@ -1,0 +1,27 @@
+GetDomainLists — Free Sample: Evaluation Terms (data/)
+
+These terms cover the sample DATA in the data/ folder. The scripts are covered
+separately by the MIT LICENSE.
+
+You MAY:
+- Download, inspect, and evaluate this sample for free, including a commercial
+  evaluation.
+- Run it through your own tools and scripts.
+
+You MAY NOT:
+- Redistribute this sample as your own dataset or product.
+- Present the sample as full or representative coverage of any namespace.
+
+About the data:
+- Names are historical observations recorded during collection. An observation is
+  not a registration, is not proof that a name currently resolves or hosts a
+  website, and the dates involved are not registration or "first seen on the
+  internet" dates.
+- The sample is curated and shuffled to show a variety of formats; it is not a
+  statistically representative sample of the full dataset.
+
+The data is provided "AS IS", without warranty of any kind.
+
+The full dataset and its own terms are available at https://getdomainlists.com.
+
+(c) 2026 GetDomainLists. Sample provided for evaluation.
