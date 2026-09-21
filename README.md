@@ -5,7 +5,7 @@ A free, **runnable** sample of the GetDomainLists dataset: 1,000 registrable dom
 list. Check the format and data quality here, then get the full dataset if it fits your
 work.
 
-**Full dataset:** 150,364,315 domains + 440,114,572 subdomains — two separate files,
+**Full dataset:** 198,156,639 domains + 622,702,032 subdomains — two separate files,
 **$9 once**, no subscription → https://getdomainlists.com
 
 ## Who this is for
@@ -19,7 +19,7 @@ system:
 - **Bulk import & test** — a realistic, large, sorted fixture for parsers, databases, and
   import paths.
 
-The **subdomain file (440M, deduplicated)** is the part that is hard to assemble yourself
+The **subdomain file (622M, deduplicated)** is the part that is hard to assemble yourself
 from free sources.
 
 ## What's in this sample
@@ -68,8 +68,8 @@ Two **separate files that do not overlap**:
 
 | File | Rows | Compressed |
 |---|---|---|
-| Domains (registrable, e.g. `example.co.uk`) | 150,364,315 | ~669 MB |
-| Subdomains (below those roots, e.g. `api.example.co.uk`) | 440,114,572 | ~4.32 GB |
+| Domains (registrable, e.g. `example.co.uk`) | 198,156,639 | ~865 MB |
+| Subdomains (below those roots, e.g. `api.example.co.uk`) | 622,702,032 | ~6.09 GB |
 
 - Plain text, one lowercase name per line, sorted and deduplicated. International names
   appear as `xn--` A-labels.
