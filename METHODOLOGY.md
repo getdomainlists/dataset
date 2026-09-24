@@ -28,8 +28,9 @@ the files should not be read as a continuous history.
   hold 57.4%. Shares describe these files, not the internet as a whole.
 - Coverage is incomplete and uneven. The files are not every domain on the internet or every subdomain of a given
   domain, and they are not a validated benchmark.
-- The free sample is curated and shuffled to show a variety of names; it is not statistically representative of the
-  full release.
+- The free sample is curated and shuffled to show a variety of names. Names that look like brand, sign-in, payment,
+  gambling or adult pages were filtered out on a best-effort basis. The sample is not statistically representative
+  of the full release.
 
 See the [site](https://getdomainlists.com/) and [help](https://getdomainlists.com/help) for the offer and download
 details.

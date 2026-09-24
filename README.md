@@ -19,7 +19,8 @@ LICENSE                    MIT, for the scripts
 DATA_TERMS.txt             evaluation terms, for the sample data
 ```
 
-The samples are curated and shuffled to show a variety of names and endings. They are not statistically
+The samples are curated and shuffled to show a variety of names and endings. Names that look like brand, sign-in,
+payment, gambling or adult pages were filtered out on a best-effort basis. The samples are not statistically
 representative of the full files. The site offers the same sample files.
 
 ## Quick start
