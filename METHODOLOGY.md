@@ -31,6 +31,8 @@ the files should not be read as a continuous history.
 - The free sample is curated and shuffled to show a variety of names. Names that look like brand, sign-in, payment,
   gambling or adult pages were filtered out on a best-effort basis. The sample is not statistically representative
   of the full release.
+- The per-TLD samples (`data/tld/`) hold 1,000 registrable domains each for ten TLDs, curated the same way from every
+  name under that TLD in the release. They are not statistically representative of their TLD either.
 
 See the [site](https://getdomainlists.com/) and [help](https://getdomainlists.com/help) for the offer and download
 details.

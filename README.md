@@ -1,7 +1,7 @@
 # GetDomainLists — free sample and tools
 
-A free, runnable sample of the GetDomainLists dataset: 1,000 registrable domains and 1,000 subdomains, plus small
-Python scripts to read, filter and match them against your own list. Check the format here, then get the full release
+A free, runnable sample of the GetDomainLists dataset: 1,000 registrable domains and 1,000 subdomains, 1,000 domains
+each for ten popular TLDs, plus small Python scripts to read, filter and match them against your own list. Check the format here, then get the full release
 if it fits your work.
 
 ## What's in this repository
@@ -10,6 +10,8 @@ if it fits your work.
 data/
   domains-sample.txt       1,000 registrable domains   (e.g. example.co.uk)
   subdomains-sample.txt    1,000 subdomains            (e.g. api.example.co.uk)
+  tld/<tld>-domains-sample.txt
+                           1,000 registrable domains per TLD: com, io, ai, dev, app, co, xyz, me, cloud, tech
 scripts/
   read_sample.py           preview and count a list (.txt or .gz), streaming
   filter_tld.py            keep names under one TLD, streaming
@@ -21,7 +23,8 @@ DATA_TERMS.txt             evaluation terms, for the sample data
 
 The samples are curated and shuffled to show a variety of names and endings. Names that look like brand, sign-in,
 payment, gambling or adult pages were filtered out on a best-effort basis. The samples are not statistically
-representative of the full files. The site offers the same sample files.
+representative of the full files. The per-TLD samples are curated the same way from every name under that TLD. The
+site offers the same sample files; the per-TLD ones are on its TLD pages (https://getdomainlists.com/tld/).
 
 ## Quick start
 
