@@ -33,6 +33,9 @@ the files should not be read as a continuous history.
   of the full release.
 - The per-TLD samples (`data/tld/`) hold 1,000 registrable domains each for ten TLDs, curated the same way from every
   name under that TLD in the release. They are not statistically representative of their TLD either.
+- The TLD counts table (`data/tld-counts.csv`) counts the rows of each full file by TLD, the last label of each name:
+  1,274 TLDs in the domains file, 1,156 of them in the subdomains file. Shares are percentages of each file's rows.
+  The counts describe this release, not the size of any registry.
 
 See the [site](https://getdomainlists.com/) and [help](https://getdomainlists.com/help) for the offer and download
 details.

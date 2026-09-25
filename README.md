@@ -1,7 +1,7 @@
 # GetDomainLists — free sample and tools
 
 A free, runnable sample of the GetDomainLists dataset: 1,000 registrable domains and 1,000 subdomains, 1,000 domains
-each for ten popular TLDs, plus small Python scripts to read, filter and match them against your own list. Check the format here, then get the full release
+each for ten popular TLDs, a table of counts for every TLD in the release, plus small Python scripts to read, filter and match them against your own list. Check the format here, then get the full release
 if it fits your work.
 
 ## What's in this repository
@@ -12,11 +12,12 @@ data/
   subdomains-sample.txt    1,000 subdomains            (e.g. api.example.co.uk)
   tld/<tld>-domains-sample.txt
                            1,000 registrable domains per TLD: com, io, ai, dev, app, co, xyz, me, cloud, tech
+  tld-counts.csv           domain and subdomain counts for all 1,274 TLDs in the release
 scripts/
   read_sample.py           preview and count a list (.txt or .gz), streaming
   filter_tld.py            keep names under one TLD, streaming
   match_names.py           find which of your names appear in a list
-SHA256SUMS                 checksums for the sample files
+SHA256SUMS                 checksums for the data files
 LICENSE                    MIT, for the scripts
 DATA_TERMS.txt             evaluation terms, for the sample data
 ```
@@ -25,6 +26,11 @@ The samples are curated and shuffled to show a variety of names and endings. Nam
 payment, gambling or adult pages were filtered out on a best-effort basis. The samples are not statistically
 representative of the full files. The per-TLD samples are curated the same way from every name under that TLD. The
 site offers the same sample files; the per-TLD ones are on its TLD pages (https://getdomainlists.com/tld/).
+
+`data/tld-counts.csv` lists every TLD in the full 20 September 2026 release, ranked by registrable domains, with the
+columns `tld`, `registrable_domains`, `share_of_domains`, `subdomains` and `share_of_subdomains` (shares in percent).
+It is the same table as https://getdomainlists.com/tld/all. The counts describe this release, not the size of each
+registry.
 
 ## Quick start
 
