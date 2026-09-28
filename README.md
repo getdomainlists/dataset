@@ -12,7 +12,7 @@ data/
   subdomains-sample.txt    1,000 subdomains            (e.g. api.example.co.uk)
   tld/<tld>-domains-sample.txt
                            1,000 registrable domains per TLD: com, io, ai, dev, app, co, xyz, me, cloud, tech
-  tld-counts.csv           domain and subdomain counts for all 1,274 TLDs in the release
+  tld-counts.csv           domain and subdomain counts for all 1,304 TLDs in the release
 scripts/
   read_sample.py           preview and count a list (.txt or .gz), streaming
   filter_tld.py            keep names under one TLD, streaming
@@ -24,10 +24,10 @@ DATA_TERMS.txt             evaluation terms, for the sample data
 
 The samples are curated and shuffled to show a variety of names and endings. Names that look like brand, sign-in,
 payment, gambling or adult pages were filtered out on a best-effort basis. The samples are not statistically
-representative of the full files. The per-TLD samples are curated the same way from every name under that TLD. The
+representative of the full files. They are kept across releases: every release contains all names of the earlier ones. The per-TLD samples are curated the same way from every name under that TLD. The
 site offers the same sample files; the per-TLD ones are on its TLD pages (https://getdomainlists.com/tld/).
 
-`data/tld-counts.csv` lists every TLD in the full 20 September 2026 release, ranked by registrable domains, with the
+`data/tld-counts.csv` lists every TLD in the full release (updated 28 September 2026), ranked by registrable domains, with the
 columns `tld`, `registrable_domains`, `share_of_domains`, `subdomains` and `share_of_subdomains` (shares in percent).
 It is the same table as https://getdomainlists.com/tld/all. The counts describe this release, not the size of each
 registry.
@@ -57,12 +57,12 @@ testing bulk imports and parsers with realistic data.
 
 ## Full release
 
-The 20 September 2026 release has two separate files that do not overlap:
+The current release (updated 28 September 2026) has two separate files that do not overlap:
 
 | File | Rows | Compressed |
 |---|---:|---:|
-| Registrable domains | 198,156,639 | 865 MB |
-| Subdomains | 622,702,032 | 6.09 GB |
+| Registrable domains | 232,997,860 | 1.01 GB |
+| Subdomains | 790,226,652 | 7.75 GB |
 
 Each file is gzip-compressed plain text with one lowercase name per line, sorted and deduplicated. Internationalized
 names appear as ASCII `xn--` labels. Both files are $9 once, with 30 days to download after purchase; the files you
