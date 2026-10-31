@@ -27,7 +27,7 @@ payment, gambling or adult pages were filtered out on a best-effort basis. The s
 representative of the full files. They are kept across releases: every release contains all names of the earlier ones. The per-TLD samples are curated the same way from every name under that TLD. The
 site offers the same sample files; the per-TLD ones are on its TLD pages (https://getdomainlists.com/tld/).
 
-`data/tld-counts.csv` lists every TLD in the full release (updated 16 October 2026), ranked by registrable domains, with the
+`data/tld-counts.csv` lists every TLD in the full release (updated 1 November 2026), ranked by registrable domains, with the
 columns `tld`, `registrable_domains`, `share_of_domains`, `subdomains` and `share_of_subdomains` (shares in percent).
 It is the same table as https://getdomainlists.com/tld/all. The counts describe this release, not the size of each
 registry.
@@ -57,12 +57,12 @@ testing bulk imports and parsers with realistic data.
 
 ## Full release
 
-The current release (updated 16 October 2026) has two separate files that do not overlap:
+The current release (updated 1 November 2026) has two separate files that do not overlap:
 
 | File | Rows | Compressed |
 |---|---:|---:|
-| Registrable domains | 306,042,862 | 1.30 GB |
-| Subdomains | 1,235,195,702 | 12.09 GB |
+| Registrable domains | 316,333,841 | 1.34 GB |
+| Subdomains | 1,340,956,064 | 13.24 GB |
 
 Each file is gzip-compressed plain text with one lowercase name per line, sorted and deduplicated. Internationalized
 names appear as ASCII `xn--` labels. Both files are $9 once, with 30 days to download after purchase; the files you
